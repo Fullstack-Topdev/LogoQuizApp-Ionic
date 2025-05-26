@@ -1,0 +1,79 @@
+// Custom variables
+// Note:  These ones were added by us and have nothing to do with Ionic CSS Custom Properties
+:host {
+  --page-margin: var(--app-fair-margin);
+  --page-background: var(--app-background);
+
+  --page-pictures-gutter: calc(var(--page-margin) / 4);
+  --page-tags-gutter: 4px;
+
+  --page-rating-5-color: #7ce198;
+  --page-rating-4-color: #a8e07c;
+  --page-rating-3-color: #cee07c;
+  --page-rating-2-color: #e0c77c;
+  --page-rating-1-color: #e07c7c;
+
+  --page-color: #ebbb00;
+  --page-color-rgb: 235,187,0;
+  --image-shell-border-radius: 10px!important;
+
+}
+
+
+.main-content {
+  --background: var(--page-background);
+  --padding-start: var(--page-margin);
+  --padding-end: var(--page-margin);
+  --padding-top: var(--page-margin);
+  --padding-bottom: var(--page-margin);
+}
+
+.lbl_row{
+
+}
+
+.item_div{
+
+  text-align: center;
+  border: 3px solid #424242;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  margin: 5px 0px;
+  overflow: hidden;
+}
+
+.lbl_div{
+  height: 14vw;
+  position: relative;
+}
+
+.star_icon{
+  font-size: 28px;
+  color: #fdc804;
+  margin: 5px;
+}
+
+.label_p{
+  margin: 0px;
+  font-size: x-large;
+  color:  #424242;;
+  font-weight: 600;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+
+}
+
+.lbl_no{
+    background:  #424242;;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    height: 11vw;
+    display: flex;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

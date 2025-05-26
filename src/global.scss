@@ -1,0 +1,105 @@
+// http://ionicframework.com/docs/theming/
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700');
+
+@import "~@ionic/angular/css/core.css";
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+// EXTRA GLOBAL STYLES
+// Add custom Ionic Colors
+@import "./theme/custom-ion-colors.scss";
+// Add base app styles
+@import "./theme/app-defaults.scss";
+// Add base shell styles
+@import "./theme/shell-defaults.scss";
+
+
+.native-input:disabled{
+    opacity:10 !important;
+    color:mediumblue!important;
+ }
+
+ .item-interactive-disabled.sc-ion-label-md-h:not(.item-multiple-inputs), .item-interactive-disabled:not(.item-multiple-inputs) .sc-ion-label-md-h {
+    cursor: default;
+    opacity: 0.7;
+    color:black;
+    pointer-events: none;
+}
+
+.alert-wrapper.sc-ion-alert-md {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
+    box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
+    width: 100vh;
+}
+
+.alert-radio-icon.sc-ion-alert-md {
+    left: 15px;
+    top: 0;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--ion-color-step-550,#737373);
+}
+
+.alert-radio-label.sc-ion-alert-md {
+    padding-left: unset;
+    padding-right: unset;
+    -webkit-padding-start: 25px;
+    padding-inline-start: 25px;
+    -webkit-padding-end: 15px;
+    padding-inline-end: 15px;
+}
+
+ion-toast.info {
+    --border-radius: 15px;
+  // --border-width: 5px;
+  // --border-style: double;
+   --border-color: white;
+   --background:black;	
+
+}
+
+ion-alert {  
+ 
+
+    .alert-button.primary.sc-ion-alert-ios , .alert-button.primary.sc-ion-alert-md {
+   //   border-top: none;
+      font-size: 14px;
+      margin: 0px auto;
+      text-transform: none;
+      //color:red;
+    }
+    .alert-button.secondary.sc-ion-alert-ios , .alert-button.secondary.sc-ion-alert-md {
+       // border-top: none;
+        font-size: 14px;
+        margin: 0px auto;
+        text-transform: none;
+        color: #000!important;
+      }
+
+  }
+
+  .alert-title.sc-ion-alert-ios {    
+    color:  var(--ion-color-primary)!important; 
+  }
+
+.alert-input.sc-ion-alert-ios {
+    min-height: 100px;
+    resize: auto;
+}
+textarea.alert-input.sc-ion-alert-ios {
+    min-height: 100px!important;
+    
+}

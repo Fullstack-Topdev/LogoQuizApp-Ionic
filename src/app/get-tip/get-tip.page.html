@@ -1,0 +1,47 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-buttons slot="start" style="position: absolute;">
+            <ion-button (click)="back()">
+                <ion-icon slot="icon-only" mode="md" name="arrow-back-outline"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title style="text-align: center;">{{'TIPS' | translate}}</ion-title>
+   
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="main-content">
+
+    <ion-row class="package_row"  >
+        <ion-col size="4"  *ngFor="let package of package_array;let i=index" >
+            <div class="package_item">
+                <ion-icon src="assets/icon/dollar.svg" class="usd_icon" (click)="buy_tips(package,i+1)"></ion-icon>
+                <ion-label style=" font-size: x-large;   font-weight: 500;   margin-top: 10px;"> {{ package}}</ion-label>
+            </div>
+        </ion-col>
+    </ion-row>
+
+    <div class="free_tip" (click)="click_freetip()" *ngIf="tip_flag">
+        <ion-icon  src="assets/icon/play.svg" class="video_icon"  > </ion-icon>
+        <ion-label style=" margin-top: 15px;  font-size: large;">  {{'FREE TIP' | translate}}  </ion-label>
+    </div>
+
+    <div class="free_tip"  *ngIf="!tip_flag">
+        <ion-icon  src="assets/icon/award.svg" class="video_icon"  > </ion-icon>
+        <ion-label style=" margin-top: 15px;  font-size: large;">  {{'Already Got' | translate}}  </ion-label>
+    </div>
+
+    <div class="tip_divs">
+        <ion-row>
+            <ion-col size=6  *ngFor="let tip_item of api.tip_array">
+                <div class="tip_item" (click)="buywithmedal(tip_item)"> 
+                    <ion-icon [src]="tip_item.icon_url" class="tip_icon" ></ion-icon>
+                    <ion-label style=" margin-top: 10px;"> {{ tip_item.medals}}</ion-label>
+                    <ion-label> {{'MEDALS' | translate}} </ion-label>
+                </div>
+            </ion-col>
+        </ion-row>
+    </div>
+
+
+</ion-content>

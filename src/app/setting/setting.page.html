@@ -1,0 +1,113 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-buttons slot="start" style="position: absolute;">
+            <ion-button (click)="back()">
+                <ion-icon slot="icon-only" mode="md" name="arrow-back-outline"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title style="text-align: center;">{{'Setting' | translate}} </ion-title>
+
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="main-content">
+
+    <ion-list  style="    padding: 0px;  width: 100%;">
+        <ion-list-header style="    background: aliceblue;">
+
+            <ion-label class="header_lbl">{{'Social' | translate}} </ion-label>
+        </ion-list-header>
+
+        <ion-item detail button  (click)="open_statistics()">
+            <ion-icon   name="stats-chart-outline"  style=" border: 1px solid;color:#97d6eb" > </ion-icon>        
+            <ion-label class="item_lbl"> {{'Statistics' | translate}}</ion-label>
+        </ion-item>
+
+        <ion-item detail button (click)="open_ranking()">
+            <ion-icon name="trophy-outline" style="color:#f8d76e"> </ion-icon>
+            <ion-label class="item_lbl"> {{'High Scores' | translate}}</ion-label>
+        </ion-item>
+
+        
+        <ion-list-header style="    background: aliceblue;">
+            <ion-label class="header_lbl">{{'Media' | translate}} </ion-label>
+        </ion-list-header>
+
+        <ion-item>
+            <ion-icon name="musical-notes-outline"  style="color:#f8d76e"> </ion-icon>
+            <ion-label class="item_lbl"> {{'Sound' | translate}} </ion-label>
+            <ion-toggle color="success" [(ngModel)]="sound_flag" (ionBlur)="change_setting()"></ion-toggle>
+
+        </ion-item>
+
+        <ion-item>
+            <ion-icon  src="assets/icon/vibrate.svg" style="color:#222428"> </ion-icon>
+            <ion-label class="item_lbl"> {{'Vibrate' | translate}} </ion-label>
+            <ion-toggle color="success" [(ngModel)]="vibrate_flag" (ionBlur)="change_setting()"></ion-toggle>
+
+        </ion-item>
+
+        <ion-list-header style="    background: aliceblue;">
+            <ion-label class="header_lbl">{{'Others' | translate}} </ion-label>
+        </ion-list-header>
+
+        <ion-item detail button  (click)="reset_all()">
+            <ion-icon name="warning-outline" color="danger"></ion-icon>
+            <ion-label class="item_lbl"> {{'Reset All' | translate}} </ion-label>
+        </ion-item>
+
+        <ion-item detail button>
+            <ion-icon name="star-outline" style="color:#efbd9c"></ion-icon>
+            <ion-label class="item_lbl"> {{'Ratting' | translate}} </ion-label>
+        </ion-item>
+
+        <ion-item  >
+            <ion-radio-group style="display: flex;" [(ngModel)]="langauge"  (ionBlur)="change_setting()" (ionChange)="change_language()">
+                <ion-item lines="none" >
+                    <!-- <ion-icon name="star-outline" ></ion-icon> -->
+                  
+                    <ion-radio value="en"></ion-radio>
+                    <ion-thumbnail style="    width: 10vw; height: 10vw; margin-left: 10px; margin-right: 5px;">
+                          <ion-img src="assets/imgs/en.png"></ion-img>
+                     </ion-thumbnail>
+                    <ion-label>English</ion-label>
+
+                </ion-item>
+                <ion-item  lines="none">
+                    <!-- <ion-icon name="star-outline" ></ion-icon> -->              
+
+                    <ion-radio value="spanish"></ion-radio>
+                    <ion-thumbnail style=" width: 10vw; height: 10vw; margin-left: 10px; margin-right: 5px;">
+                        <ion-img src="assets/imgs/spanish.png"></ion-img>
+                    </ion-thumbnail>
+                    <ion-label>Spanish</ion-label>
+                </ion-item>
+            </ion-radio-group>
+        </ion-item>
+
+        <ion-list-header style="background: aliceblue; margin-top: 20px;">
+            <ion-label class="header_lbl">{{'Login' | translate}}  </ion-label>
+        </ion-list-header>
+
+        <ion-item>
+            <ion-label style="    padding: 0px;   font-weight: bold;margin-right: 5px;"> {{'Nickname' | translate}}: </ion-label>
+            <ion-input [(ngModel)]="username" placeholder="Enter user name" [readonly]="!edit_nameflag"  [ngStyle]="{'border':edit_nameflag? '1px solid burlywood':'' }" ></ion-input>
+            <ion-icon *ngIf="!edit_nameflag" name="pencil-outline"  (click)="change_editflag()" style="    margin-left: 5px; background: #f5f6f9;   color: #eb445a;   padding: 9px;  font-size: large;       border-radius: 5px;"> </ion-icon>
+            <ion-icon *ngIf="edit_nameflag"  name="checkmark-outline"  (click)="save_username()" style="    margin-left: 5px; background: aliceblue;   color: darkgreen;   padding: 9px;  font-size: large;       border-radius: 5px;"> </ion-icon>
+
+        </ion-item>
+
+        <ion-button *ngIf="api.user_info.login_type==''" expand="block"   fill="solid" color="facebook" class="login_btn" (click)="doFacebookLogin()"> 
+            <ion-icon *ngIf="!isfacebookLogin" slot="start" name="logo-facebook"></ion-icon>
+            <ion-label *ngIf="!isfacebookLogin" style="text-transform: capitalize;"> {{'Sign up with Facebook' | translate}} </ion-label>    
+            <ion-spinner name="circles" *ngIf="isfacebookLogin"></ion-spinner>
+        </ion-button>
+
+        <ion-button *ngIf="api.user_info.login_type==''" expand="block"  fill="solid" color="google"  class="login_btn"  (click)="doGoogleLogin()" >            
+            <ion-icon *ngIf="!isgoogleLogin" slot="start" name="logo-google"></ion-icon>
+            <ion-label *ngIf="!isgoogleLogin" style="text-transform: capitalize;"> {{'Sign up with Google' | translate}}      </ion-label>
+            <ion-spinner name="circles" *ngIf="isgoogleLogin"></ion-spinner>
+        </ion-button>
+
+    </ion-list>
+</ion-content>

@@ -1,0 +1,67 @@
+// Custom variables
+// Note:  These ones were added by us and have nothing to do with Ionic CSS Custom Properties
+:host {
+  --page-margin: var(--app-fair-margin);
+  --page-background: var(--app-background);
+
+  --page-pictures-gutter: calc(var(--page-margin) / 4);
+  --page-tags-gutter: 4px;
+
+  --page-rating-5-color: #7ce198;
+  --page-rating-4-color: #a8e07c;
+  --page-rating-3-color: #cee07c;
+  --page-rating-2-color: #e0c77c;
+  --page-rating-1-color: #e07c7c;
+
+  --page-color: #ebbb00;
+  --page-color-rgb: 235,187,0;
+  --image-shell-border-radius: 10px!important;
+
+}
+
+
+.main-content {
+  --background: var(--page-background);
+  --padding-start: var(--page-margin);
+  --padding-end: var(--page-margin);
+  --padding-top: var(--page-margin);
+  --padding-bottom: var(--page-margin);
+}
+
+
+
+.result_div{
+  text-align: center;
+  margin-top: 30vh;
+}
+
+.award_icon{
+  font-size: 33vw;
+}
+
+
+.title_p{
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+.tip_icon{
+  font-size: 20vw;
+  margin: auto;
+}
+
+.subtitle_p{
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  font-size: large;
+}
+
+
+.btn_div{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}

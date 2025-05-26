@@ -1,0 +1,45 @@
+<ion-content class="main-content">
+    <!-- (click)="shuffle()" -->
+    <div class="label_css"  > {{'DAILY AWARD' | translate}} </div>
+    <ion-row class="btn_row" *ngIf="get_awardflag==0" >
+        <ion-col size="4"  *ngFor="let award of award_array" >
+            <div class="item_div">
+                <ion-icon src="assets/icon/unknown-award.svg" class="btn_icon" (click)="click_award(award)"></ion-icon>
+            </div>
+        </ion-col>
+    </ion-row>
+
+    <div *ngIf="get_awardflag==-1" class="result_div">
+        <ion-icon  src="assets/icon/award.svg" class="award_icon" > </ion-icon>
+
+        <div class="result_tips">
+            <p class="title_p">  {{'YOU LOSE' | translate}}  </p>
+            <ion-icon  src="assets/icon/play.svg" class="tip_icon" > </ion-icon>
+            <p  class="subtitle_p">  {{'WATCH VIDEO FOR ANOTHER CHANCE' | translate}}  </p>
+        </div>
+        <div class="btn_div">
+            <ion-button *ngIf="retry_flag" expand="block" color="secondary" style="width: 40%;margin: auto;" (click)="retry()"> {{'Retry' | translate}} </ion-button>
+            <ion-button expand="block"  color="dark" fill="outline" style="width: 40%;margin: auto;"  (click)="go_home()"> {{'Skip' | translate}} </ion-button>
+
+        </div>
+    </div>
+
+    <div *ngIf="get_awardflag>0" class="result_div"  (click)="go_home()">
+        <ion-icon  src="assets/icon/award.svg" class="award_icon" > </ion-icon>
+
+        <div class="result_tips">
+            <p class="title_p">  {{'YOU WIN' | translate}}  </p>
+            <ion-icon *ngIf="get_awardflag==1 || get_awardflag==2"  src="assets/icon/medal.svg" class="tip_icon" > </ion-icon>
+            <ion-icon *ngIf="get_awardflag==3 || get_awardflag==4"  [src]="select_tip.icon_url" class="tip_icon" > </ion-icon>
+
+            <p  class="subtitle_p"  *ngIf="get_awardflag==1 || get_awardflag==2">  {{ get_awardflag }} {{'MEDALS' | translate}}  </p>
+            <p  class="subtitle_p"  *ngIf="get_awardflag==3 || get_awardflag==4"> {{ api.translate_str(select_tip.name)}}  </p>
+
+        </div>
+    </div> 
+</ion-content>
+
+<!-- <ion-icon name="bulb-outline" ></ion-icon> -->
+<!-- <ion-icon name="sync-outline"></ion-icon> -->
+<!-- <ion-icon name="alarm-outline"></ion-icon> -->
+<!-- *ngIf="get_flag==0" -->

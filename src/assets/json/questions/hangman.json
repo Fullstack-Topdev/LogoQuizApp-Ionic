@@ -1,0 +1,204 @@
+[
+    {
+        "id": 1,
+        "type": "Drink",
+        "difficult": 1,
+        "logo_url": "assets/imgs/Hangman/Coca-Cola.png",
+        "tip": "Best drink",
+        "country":"USA",
+        "firstword":"Coca",
+        "secondword":"Cola"
+    },
+    {
+        "id": 2,
+        "type": "Clothes",
+        "difficult": 2,
+        "logo_url": "assets/imgs/Hangman/Carolina-Herrera.png",
+        "tip": "Frangacies",
+        "country":"Japan",
+        "firstword":"Carolina",
+        "secondword":"Herrera"
+    },
+    {
+        "id": 3,
+        "type": "Drink",
+        "difficult": 3,
+        "logo_url": "assets/imgs/Hangman/Red-Bull.png",
+        "tip": "To get wings",
+        "country":"China",
+        "firstword":"Red",
+        "secondword":"Bull"
+    } ,
+    {
+        "id": 4,
+        "type": "Food",
+        "difficult": 4,
+        "logo_url": "assets/imgs/Hangman/Pizza-Hut.png",
+        "tip": "Great pizzas",
+        "country":"France",
+        "firstword":"Pizza",
+        "secondword":"Hut"
+    } ,
+    {
+        "id": 5,
+        "type": "Clothes",
+        "difficult": 5,
+        "logo_url": "assets/imgs/Hangman/Calvin-Klein.png",
+        "tip": "Too expensive for me ",
+        "country":"Mexico",
+        "firstword":"Calvin",
+        "secondword":"Klein"
+    },    
+    {
+        "id": 6,
+        "type": "Clothes",
+        "difficult": 6,
+        "logo_url": "assets/imgs/Hangman/Louis-Vuitton.png",
+        "tip": "Purses",
+        "country":"Argentina",
+        "firstword":"Louis",
+        "secondword":"Vuitton"
+    },    
+    {
+        "id": 7,
+        "type": "Food",
+        "difficult": 7,
+        "logo_url": "assets/imgs/Hangman/Burger-King.png",
+        "tip": "Hamburguer",
+        "country":"Argentina",
+        "firstword":"Burger",
+        "secondword":"King"
+    },    
+    {
+        "id": 8,
+        "type": "Car",
+        "difficult": 8,
+        "logo_url": "assets/imgs/Hangman/Mercedes-Benz.png",
+        "tip": "Best cars",
+        "country":"Argentina",
+        "firstword":"Mercedes",
+        "secondword":"Benz"
+    },    
+    {
+        "id": 9,
+        "type": "Clothes",
+        "difficult": 9,
+        "logo_url": "assets/imgs/Hangman/Tommy-Hilfiger.png",
+        "tip": "I do not know how to say the last word",
+        "country":"Argentina",
+        "firstword":"Tommy",
+        "secondword":"Hilfiger"
+    },    
+    {
+        "id": 10,
+        "type": "Clothes",
+        "difficult": 10,
+        "logo_url": "assets/imgs/Hangman/Old-Navy.png",
+        "tip": "Old",
+        "country":"Argentina",
+        "firstword":"Old",
+        "secondword":"Navy"
+    },    
+    {
+        "id": 11,
+        "type": "Clothes",
+        "difficult": 1,
+        "logo_url": "assets/imgs/Hangman/Ralph-Lauren.png",
+        "tip": "Raplhie",
+        "country":"USA",
+        "firstword":"Ralph",
+        "secondword":"Lauren"
+    },    
+    {
+        "id": 12,
+        "type": "Clothes",
+        "difficult": 2,
+        "logo_url": "assets/imgs/Hangman/Banana-Republic.png",
+        "tip": "To wear",
+        "country":"Japan",
+        "firstword":"Banana",
+        "secondword":"Republic"
+    },    
+    {
+        "id": 13,
+        "type": "Food",
+        "difficult": 3,
+        "logo_url": "assets/imgs/Hangman/Dunkin-Donuts.png",
+        "tip": "No healthy food",
+        "country":"China",
+        "firstword":"Dunkin",
+        "secondword":"Donuts"
+    },    
+    {
+        "id": 14,
+        "type": "Drink",
+        "difficult": 4,
+        "logo_url": "assets/imgs/Hangman/Dr-Pepper.png",
+        "tip": "Do you want something to drink?",
+        "country":"France",
+        "firstword":"Dr",
+        "secondword":"Pepper"
+    },
+    {
+        "id": 15,
+        "type": "Drink",
+        "difficult": 5,
+        "logo_url": "assets/imgs/Hangman/Canada-Dry.png",
+        "tip": "Something to drink",
+        "country":"Mexico",
+        "firstword":"Canada",
+        "secondword":"Dry"
+    },       
+    {
+        "id": 16,
+        "type": "Food",
+        "difficult": 6,
+        "logo_url": "assets/imgs/Hangman/General-Mills.png",
+        "tip": "Food and more food",
+        "country":"Argentina",
+        "firstword":"General",
+        "secondword":"Mills"
+    },       
+    {
+        "id": 17,
+        "type": "Clothes",
+        "difficult": 7,
+        "logo_url": "assets/imgs/Hangman/New-Balance.png",
+        "tip": "Clothes and clothes",
+        "country":"Argentina",
+        "firstword":"New",
+        "secondword":"Balance"
+    },       
+    {
+        "id": 18,
+        "type": "Clothes",
+        "difficult": 8,
+        "logo_url": "assets/imgs/Hangman/Hugo-Boss.png",
+        "tip": "Nice suits",
+        "country":"Argentina",
+        "firstword":"Hugo",
+        "secondword":"Boss"
+    },       
+    {
+        "id": 19,
+        "type": "Channel",
+        "difficult": 9,
+        "logo_url": "assets/imgs/Hangman/Cartoon-Network.png",
+        "tip": "Cartoons",
+        "country":"Argentina",
+        "firstword":"Cartoon",
+        "secondword":"Network"
+    },       
+    {
+        "id": 20,
+        "type": "Channel",
+        "difficult": 10,
+        "logo_url": "assets/imgs/Hangman/Disney-Channel.png",
+        "tip": "Mickey",
+        "country":"Argentina",
+        "firstword":"Disney",
+        "secondword":"Channel"
+    }
+]
+
+

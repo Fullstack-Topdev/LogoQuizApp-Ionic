@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>411215079824-qb2imrve80a43jvi83vduug0a2ihnpko.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.411215079824-qb2imrve80a43jvi83vduug0a2ihnpko</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>411215079824-1h29a27s429hhndp4ojvta0fq0pam9i9.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDwy-lBfBLY2lyCi_nfDqKYCvWVygB9P_k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>411215079824</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.onitux.quizapp</string>
+	<key>PROJECT_ID</key>
+	<string>logoquiz-79e61</string>
+	<key>STORAGE_BUCKET</key>
+	<string>logoquiz-79e61.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:411215079824:ios:68f91873a1d1a07b60ab15</string>
+	<key>DATABASE_URL</key>
+	<string>https://logoquiz-79e61.firebaseio.com</string>
+</dict>
+</plist>

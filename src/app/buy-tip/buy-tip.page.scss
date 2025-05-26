@@ -1,0 +1,59 @@
+// Custom variables
+// Note:  These ones were added by us and have nothing to do with Ionic CSS Custom Properties
+:host {
+  --page-margin: var(--app-broad-margin);
+  --page-background: white;
+}
+
+// Note:  All the CSS variables defined below are overrides of Ionic elements CSS Custom Properties
+.main-content {
+  --background: var(--page-background);
+  --padding-start: var(--page-margin);
+  --padding-end: var(--page-margin);
+  --padding-top: var(--page-margin);
+  --padding-bottom: var(--page-margin);
+
+}
+
+.label_css{
+  border: 2px solid #FF0062;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+
+.tip_divs{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.tip_item{
+  display: grid;
+  text-align: center;
+  margin: 7px 0px;
+}
+
+.tip_icon{
+  margin: auto;
+  font-size: 8vw;
+}
+
+
+.btn_class{
+  margin: 10% 10px;
+  height: 42px;
+  --color: black!important;
+  --border-radius: 10px;
+}
+
+.btn1{
+  --ripple-color: #f4344f;
+  --border-color:#f4344f;
+}

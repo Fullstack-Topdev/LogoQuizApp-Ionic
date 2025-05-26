@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "level_type": "Easy",
+        "question_count":1,
+        "question_type":"muliplechoice",
+        "question_start_difficult":1,        
+        "question_end_difficult":1,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 2,
+        "level_type": "Medium",
+        "question_count":2,
+        "question_type":"muliplechoice",
+        "question_start_difficult":2,        
+        "question_end_difficult":5,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 3,
+        "level_type": "Hard",
+        "question_count":3,
+        "question_type":"muliplechoice",
+        "question_start_difficult":6,        
+        "question_end_difficult":10,
+        "question_fields":"all",
+        "question_country":"Argentina"
+    },
+    {
+        "id": 4,
+        "level_type": "Easy",
+        "question_count":1,
+        "question_type":"muliplechoice",
+        "question_start_difficult":1,        
+        "question_end_difficult":1,
+        "question_fields":"SocialMedia",
+        "question_country":"all"
+    },
+    {
+        "id": 5,
+        "level_type": "Medium",
+        "question_count":2,
+        "question_type":"muliplechoice",
+        "question_start_difficult":2,        
+        "question_end_difficult":5,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 6,
+        "level_type": "Hard",
+        "question_count":3,
+        "question_type":"muliplechoice",
+        "question_start_difficult":6,        
+        "question_end_difficult":10,
+        "question_fields":"all",
+        "question_country":"Argentina"
+    },
+    {
+        "id": 7,
+        "level_type": "Easy",
+        "question_count":1,
+        "question_type":"hangman",
+        "question_start_difficult":1,        
+        "question_end_difficult":1,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 8,
+        "level_type": "Medium",
+        "question_count":2,
+        "question_type":"hangman",
+        "question_start_difficult":2,        
+        "question_end_difficult":5,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 9,
+        "level_type": "Hard",
+        "question_count":3,
+        "question_type":"hangman",
+        "question_start_difficult":6,        
+        "question_end_difficult":10,
+        "question_fields":"all",
+        "question_country":"Argentina"
+    },
+    {
+        "id": 10,
+        "level_type": "Easy",
+        "question_count":1,
+        "question_type":"hangman",
+        "question_start_difficult":1,        
+        "question_end_difficult":1,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 11,
+        "level_type": "Medium",
+        "question_count":2,
+        "question_type":"hangman",
+        "question_start_difficult":2,        
+        "question_end_difficult":5,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 12,
+        "level_type": "Hard",
+        "question_count":3,
+        "question_type":"hangman",
+        "question_start_difficult":6,        
+        "question_end_difficult":10,
+        "question_fields":"all",
+        "question_country":"Argentina"
+    },
+    {
+        "id": 13,
+        "level_type": "Easy",
+        "question_count":1,
+        "question_type":"muliplechoice",
+        "question_start_difficult":1,        
+        "question_end_difficult":1,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 14,
+        "level_type": "Medium",
+        "question_count":2,
+        "question_type":"muliplechoice",
+        "question_start_difficult":2,        
+        "question_end_difficult":5,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 15,
+        "level_type": "Hard",
+        "question_count":3,
+        "question_type":"muliplechoice",
+        "question_start_difficult":6,        
+        "question_end_difficult":10,
+        "question_fields":"all",
+        "question_country":"Argentina"
+    },
+    {
+        "id": 16,
+        "level_type": "Easy",
+        "question_count":1,
+        "question_type":"muliplechoice",
+        "question_start_difficult":1,        
+        "question_end_difficult":1,
+        "question_fields":"SocialMedia",
+        "question_country":"all"
+    },
+    {
+        "id": 17,
+        "level_type": "Medium",
+        "question_count":2,
+        "question_type":"muliplechoice",
+        "question_start_difficult":2,        
+        "question_end_difficult":5,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 18,
+        "level_type": "Hard",
+        "question_count":3,
+        "question_type":"muliplechoice",
+        "question_start_difficult":6,        
+        "question_end_difficult":10,
+        "question_fields":"all",
+        "question_country":"Argentina"
+    },
+    {
+        "id": 19,
+        "level_type": "Easy",
+        "question_count":1,
+        "question_type":"hangman",
+        "question_start_difficult":1,        
+        "question_end_difficult":1,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 20,
+        "level_type": "Medium",
+        "question_count":2,
+        "question_type":"hangman",
+        "question_start_difficult":2,        
+        "question_end_difficult":5,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 21,
+        "level_type": "Hard",
+        "question_count":3,
+        "question_type":"hangman",
+        "question_start_difficult":6,        
+        "question_end_difficult":10,
+        "question_fields":"all",
+        "question_country":"Argentina"
+    },
+    {
+        "id": 22,
+        "level_type": "Easy",
+        "question_count":1,
+        "question_type":"hangman",
+        "question_start_difficult":1,        
+        "question_end_difficult":1,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 23,
+        "level_type": "Medium",
+        "question_count":2,
+        "question_type":"hangman",
+        "question_start_difficult":2,        
+        "question_end_difficult":5,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 24,
+        "level_type": "Hard",
+        "question_count":3,
+        "question_type":"hangman",
+        "question_start_difficult":6,        
+        "question_end_difficult":10,
+        "question_fields":"all",
+        "question_country":"Argentina"
+    },
+    {
+        "id": 25,
+        "level_type": "Easy",
+        "question_count":1,
+        "question_type":"muliplechoice",
+        "question_start_difficult":1,        
+        "question_end_difficult":1,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 26,
+        "level_type": "Medium",
+        "question_count":2,
+        "question_type":"muliplechoice",
+        "question_start_difficult":2,        
+        "question_end_difficult":5,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 27,
+        "level_type": "Hard",
+        "question_count":3,
+        "question_type":"muliplechoice",
+        "question_start_difficult":6,        
+        "question_end_difficult":10,
+        "question_fields":"all",
+        "question_country":"Argentina"
+    },
+    {
+        "id": 28,
+        "level_type": "Easy",
+        "question_count":1,
+        "question_type":"muliplechoice",
+        "question_start_difficult":1,        
+        "question_end_difficult":1,
+        "question_fields":"SocialMedia",
+        "question_country":"all"
+    },
+    {
+        "id": 29,
+        "level_type": "Medium",
+        "question_count":2,
+        "question_type":"muliplechoice",
+        "question_start_difficult":2,        
+        "question_end_difficult":5,
+        "question_fields":"all",
+        "question_country":"all"
+    },
+    {
+        "id": 30,
+        "level_type": "Hard",
+        "question_count":3,
+        "question_type":"muliplechoice",
+        "question_start_difficult":6,        
+        "question_end_difficult":10,
+        "question_fields":"all",
+        "question_country":"Argentina"
+    }
+]

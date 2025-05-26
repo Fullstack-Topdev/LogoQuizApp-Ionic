@@ -1,0 +1,94 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <!-- <ion-buttons slot="start" style="position: absolute;">
+            <ion-button (click)="back()">
+                <ion-icon slot="icon-only" mode="md" name="arrow-back-outline"></ion-icon>
+            </ion-button>
+        </ion-buttons> -->
+        <ion-title style="text-align: center;">{{'BURST MODE' | translate}} - {{ (current_questionid + 1) + "/"+ api.burstmode_count}}</ion-title>
+   
+    </ion-toolbar>
+</ion-header>
+<ion-content class="main-content">
+  <div class="tip_div">
+    <div class="btn_div"> 
+        <div>
+            <ion-button class="tip_btn"  fill="clear" (click)="show_hint()">
+                <ion-icon   slot="icon-only" src="assets/icon/lamp.svg" class="tip_icon" > </ion-icon>
+            </ion-button>
+            <p class="tip_count"> {{api.user_info.lights}} </p>
+        </div>    
+        <div>
+            <ion-button class="tip_btn"  fill="clear" (click)="stop_timer()">
+                <ion-icon   slot="icon-only" src="assets/icon/clock.svg" class="tip_icon" > </ion-icon>
+            </ion-button>
+            <p class="tip_count">  {{api.user_info.timers}} </p>
+        </div>   
+    </div>
+    <div class="clock_div">
+        <p class="timer_p"  [ngStyle]="{'color':current_sec<10? 'red':'' }">{{ current_sec }} </p>
+    </div>
+    <div class="btn_div"> 
+        <div>
+            <ion-button class="tip_btn" fill="clear" (click)="click_refresh()" >
+                <ion-icon   slot="icon-only" src="assets/icon/refresh.svg" class="tip_icon" > </ion-icon>
+            </ion-button>
+            <p class="tip_count">  {{api.user_info.refreshs}} </p>
+
+        </div>   
+        <div *ngIf="sel_question?.question_type=='muliplechoice'">
+            <ion-button   class="tip_btn"  fill="clear" (click)="click_bomb()">
+                <ion-icon   slot="icon-only" src="assets/icon/bomb.svg" class="tip_icon" > </ion-icon>
+            </ion-button>
+            <p class="tip_count">  {{api.user_info.bombs}} </p>
+
+       </div>      
+       <div *ngIf="sel_question.question_type=='hangman'" >
+            <ion-button  class="tip_btn"  fill="clear" (click)="click_hangman()">
+                <ion-icon   slot="icon-only" src="assets/icon/user.svg" class="tip_icon" > </ion-icon>
+            </ion-button>
+            <p class="tip_count">  {{api.user_info.hangmans}} </p>
+        </div>   
+    </div>
+
+  </div>
+
+  <div class="hint_div">
+    <p *ngIf="hint_flag" class="hint_p">{{ sel_question?.tip }}</p>
+  </div>
+
+  <div class="quiz_imgdiv">
+    <ion-img [src]="sel_question?.logo_url"  class="logo_img"> </ion-img>
+  </div>
+
+  <div class="mutlipe_content" *ngIf="sel_question?.question_type=='muliplechoice'">
+    <ion-button expand="block" fill="outline" class="answer_btn_class" *ngFor="let answer_item of answer_list" (click)="click_answer(answer_item)" > {{ answer_item.title}} </ion-button>
+  </div>
+
+  <div class="hangman_content" *ngIf="sel_question?.question_type=='hangman'">
+    <div class="word_div" style=" margin-right: 10px;">
+        <div *ngFor="let letter_item of firstword_list" class="lbl_item"  [ngStyle]="{'width':worditem_width}"> 
+            <p class="lbl_char" *ngIf="letter_item.sel_flag==1"> {{ letter_item.char }}</p>
+            <p class="lbl_char" *ngIf="letter_item.sel_flag==0"> {{ " " }}</p>
+
+        </div>
+    </div>
+    <div class="word_div" style="margin-left: 10px;">
+        <div *ngFor="let letter_item of secondword_list" class="lbl_item" [ngStyle]="{'width':worditem_width}"> 
+            <p class="lbl_char" *ngIf="letter_item.sel_flag==1"> {{ letter_item.char }}</p>
+            <p class="lbl_char" *ngIf="letter_item.sel_flag==0"> {{ " " }}</p>
+        </div>
+    </div>
+  </div>
+
+</ion-content> 
+
+ <ion-footer *ngIf="sel_question?.question_type=='hangman'">
+    <div class="keyboard_div">
+        <div class="key_row" *ngFor="let key_rowlist of keyboard_list" >
+            <div *ngFor="let key_item of key_rowlist" class="key_item" > 
+               <ion-button class="key_btn"  fill="clear" [disabled]="!key_item.flag" (click)="keybtn_click(key_item)" >    {{ key_item.char}} </ion-button>
+            </div>
+        </div>
+    </div>
+</ion-footer> 

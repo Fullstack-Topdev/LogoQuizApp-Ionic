@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-buttons slot="start" style="position: absolute;">
+            <ion-button (click)="back()">
+                <ion-icon slot="icon-only" mode="md" name="arrow-back-outline"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title style="text-align: center;">{{'Level' | translate}} {{api.selected_mainlevel}}</ion-title>
+   
+    </ion-toolbar>
+</ion-header>
+<ion-content class="main-content">
+    <ion-row class="lbl_row"  >
+        <ion-col size="4"  *ngFor="let level_item of sub_levels" >
+            <div class="item_div"  [ngStyle]="{'border-color':level_item.status>0? '#0f60ef':'' }" (click)="go_quiz(level_item)">
+               <div class="lbl_div"> 
+                  <ion-icon name="star" class='star_icon'  *ngIf="level_item.status==10"></ion-icon>
+                  <p class="label_p" [ngStyle]="{'color':level_item.status>0? '#0f60ef':'' }">  {{'Level' | translate}} </p>
+               </div>
+               <div class="lbl_no" [ngStyle]="{'background-color':level_item.status>0? '#0f60ef':'' }">
+                    {{ level_item.id }}
+               </div>
+            </div>
+        </ion-col>
+    </ion-row>
+
+</ion-content>

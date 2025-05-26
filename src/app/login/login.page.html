@@ -1,0 +1,28 @@
+<ion-content class="login-content">
+  <div class="btn_div">
+    <ion-button expand="block" fill="outline" class="btn_class btn1" (click)="doGeneralLogin()"> 
+      
+      <ion-label *ngIf="!isLogin"  >{{'ANONYMOUS' | translate}}     </ion-label>
+      <ion-spinner name="circles" *ngIf="isLogin"></ion-spinner>
+
+    </ion-button>
+
+
+  <ion-button expand="block"  fill="solid" color="google"  class="btn_class"  (click)="doGoogleLogin()" >       
+      
+      <ion-icon *ngIf="!isgoogleLogin" slot="start" name="logo-google"></ion-icon>
+      <ion-label *ngIf="!isgoogleLogin" style="text-transform: capitalize;"> {{'GOOGLE' | translate}}      </ion-label>
+      <ion-spinner name="circles" *ngIf="isgoogleLogin"></ion-spinner>
+
+  </ion-button>
+
+  <ion-button expand="block"  fill="solid" color="facebook" class="btn_class" (click)="doFacebookLogin()"> 
+
+    <ion-icon *ngIf="!isfacebookLogin" slot="start" name="logo-facebook"></ion-icon>
+    <ion-label *ngIf="!isfacebookLogin" style="text-transform: capitalize;"> {{'FACEBOOK' | translate}} </ion-label>    
+    <ion-spinner name="circles" *ngIf="isfacebookLogin"></ion-spinner>
+
+</ion-button>
+  </div>
+</ion-content>
+

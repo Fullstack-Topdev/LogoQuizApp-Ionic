@@ -1,0 +1,69 @@
+// Custom variables
+// Note:  These ones were added by us and have nothing to do with Ionic CSS Custom Properties
+:host {
+  --page-margin: var(--app-fair-margin);
+  --page-background: var(--app-background);
+
+  --page-pictures-gutter: calc(var(--page-margin) / 4);
+  --page-tags-gutter: 4px;
+
+  --page-rating-5-color: #7ce198;
+  --page-rating-4-color: #a8e07c;
+  --page-rating-3-color: #cee07c;
+  --page-rating-2-color: #e0c77c;
+  --page-rating-1-color: #e07c7c;
+
+  --page-color: #ebbb00;
+  --page-color-rgb: 235,187,0;
+  --image-shell-border-radius: 10px!important;
+
+}
+
+
+.main-content {
+  --background: var(--page-background);
+  --padding-start: var(--page-margin);
+  --padding-end: var(--page-margin);
+  --padding-top: var(--page-margin);
+  --padding-bottom: var(--page-margin);
+}
+
+.btn_div{
+  margin-top: 50%;
+}
+
+.btn_class{
+  margin: 10% 10px;
+  height: 42px;
+  --color: black!important;
+  --border-radius: 10px;
+}
+
+.btn1{
+  --ripple-color: #f4344f;
+  --border-color:#f4344f;
+}
+
+.btn2{
+  --ripple-color: #ffed11;
+  --border-color:#ffed11;
+}
+
+.btn3{
+  --ripple-color: #20dc6a;
+  --border-color:#20dc6a;
+}
+
+.botton_div{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.bottom_btn{
+  margin: auto;
+}
+
+.btn_icon{
+  font-size: 30px;
+}

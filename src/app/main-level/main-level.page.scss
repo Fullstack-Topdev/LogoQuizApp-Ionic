@@ -1,0 +1,69 @@
+// Custom variables
+// Note:  These ones were added by us and have nothing to do with Ionic CSS Custom Properties
+:host {
+  --page-margin: var(--app-fair-margin);
+  --page-background: var(--app-background);
+
+  --page-pictures-gutter: calc(var(--page-margin) / 4);
+  --page-tags-gutter: 4px;
+
+  --page-rating-5-color: #7ce198;
+  --page-rating-4-color: #a8e07c;
+  --page-rating-3-color: #cee07c;
+  --page-rating-2-color: #e0c77c;
+  --page-rating-1-color: #e07c7c;
+
+  --page-color: #ebbb00;
+  --page-color-rgb: 235,187,0;
+  --image-shell-border-radius: 10px!important;
+
+}
+
+
+.main-content {
+  --background: var(--page-background);
+  --padding-start: var(--page-margin);
+  --padding-end: var(--page-margin);
+  --padding-top: var(--page-margin);
+  --padding-bottom: var(--page-margin);
+}
+
+.level_div{
+    color: white;
+    color: white;
+    margin: 20px 5px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-align: center;
+} 
+
+
+.level1{
+ background: #56cc40;
+}
+
+.level2{
+  background: #439be0;
+}
+
+.level3{
+  background:#ea274a;
+}
+
+.progress_css{
+  height: 20px;
+  border-radius: 10px;
+  /* --buffer-background: #f2f2f2; */
+  --progress-background: white;
+}
+
+.level_title{
+  font-size: large;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.level_require{
+  font-size:22px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "411215079824",
+    "firebase_url": "https://logoquiz-79e61.firebaseio.com",
+    "project_id": "logoquiz-79e61",
+    "storage_bucket": "logoquiz-79e61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411215079824:android:587c65aabc09dfa160ab15",
+        "android_client_info": {
+          "package_name": "com.onitux.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411215079824-1h29a27s429hhndp4ojvta0fq0pam9i9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onitux.quizapp",
+            "certificate_hash": "9de55500843d657fad1962c05fddc458d656f843"
+          }
+        },
+        {
+          "client_id": "411215079824-eabhtb6a8h0p7msehq0g8m16kchgjquq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuthve38KpyiFAuNeCRF2Iture_stiP0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411215079824-eabhtb6a8h0p7msehq0g8m16kchgjquq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "411215079824-qb2imrve80a43jvi83vduug0a2ihnpko.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onitux.quizapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+
+<ion-content class="main-content">
+    <div class="btn_div">
+        <ion-button expand="block" fill="outline" class="btn_class btn1" (click)="play()"> {{'PLAY' | translate}} </ion-button>
+        <ion-button expand="block" fill="outline" class="btn_class btn2" (click)="click_extra()">{{'EXTRA LEVELS' | translate}} </ion-button>
+        <ion-button expand="block" fill="outline" class="btn_class btn1" (click)="click_burst()">{{'BURST MODE' | translate}} </ion-button>
+        <ion-button expand="block" fill="outline" class="btn_class btn3" (click)="get_tip()" >{{'GET TIPS' | translate}} </ion-button>
+    </div>
+
+    <div class="botton_div">
+        <ion-button class="bottom_btn" fill="clear"  (click)="go_stats()">
+            <ion-icon   slot="icon-only"  name="stats-chart-outline" class="btn_icon" style=" border: 1px solid;" > </ion-icon>        
+        </ion-button>
+        <ion-button class="bottom_btn" fill="clear" (click)="go_ranking()" >
+            <ion-icon   slot="icon-only"  name="trophy-outline" class="btn_icon" > </ion-icon>
+        </ion-button>
+        <ion-button class="bottom_btn" fill="clear" (click)="go_setting()">
+            <ion-icon   slot="icon-only" name="settings-outline"class="btn_icon" > </ion-icon>
+        </ion-button>
+    </div>
+
+</ion-content>

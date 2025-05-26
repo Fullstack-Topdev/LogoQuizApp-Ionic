@@ -1,0 +1,82 @@
+// Custom variables
+// Note:  These ones were added by us and have nothing to do with Ionic CSS Custom Properties
+:host {
+  --page-margin: var(--app-broad-margin);
+  --page-background: white;
+}
+
+// Note:  All the CSS variables defined below are overrides of Ionic elements CSS Custom Properties
+.main-content {
+  --background: var(--page-background);
+  --padding-start: var(--page-margin);
+  --padding-end: var(--page-margin);
+  --padding-top: var(--page-margin);
+  --padding-bottom: var(--page-margin);
+
+}
+
+.label_css{
+  border: 2px solid #FF0062;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.btn_row{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.item_div{
+  display: flex
+}
+
+
+.btn_icon{
+  width: 20vw;
+  height: 20vw;
+  color: #383a3e;
+  margin: 10px;
+}
+
+
+.result_div{
+  text-align: center;
+}
+
+.award_icon{
+  font-size: 33vw;
+}
+
+.btn_div{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.result_tips{
+  margin-top: 50px;
+}
+
+.title_p{
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+
+.tip_icon{
+  font-size: 20vw;
+  margin: auto;
+}
+
+.subtitle_p{
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  font-size: large;
+}

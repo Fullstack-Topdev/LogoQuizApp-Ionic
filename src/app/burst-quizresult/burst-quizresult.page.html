@@ -1,0 +1,24 @@
+<ion-content class="main-content">
+ 
+    <div *ngIf="success_flag==0" class="result_div" >
+            <p class="title_p">  {{'YOU LOSE' | translate}}  </p>
+            <ion-icon *ngIf="api.round_adflag" src="assets/icon/play.svg" class="tip_icon" (click)="keep_play()" > </ion-icon>
+            <p  *ngIf="api.round_adflag"  class="subtitle_p" (click)="keep_play()">  {{'WATCH VIDEO FOR ANOTHER CHANCE' | translate}}  </p>
+            <div class="btn_div">
+                <ion-button  expand="block" color="danger" fill="outline" style="width: 40%;margin: auto;" (click)="go_home()"> {{'Home' | translate}} </ion-button>
+                <ion-button expand="block"  color="danger"  style="width: 40%;margin: auto;"  (click)="restart_quiz()"> {{'Retry' | translate}} </ion-button>       
+            </div>
+           
+    </div>
+
+    <div *ngIf="success_flag==1" class="result_div"  >
+            <p class="title_p">  {{'YOU WIN' | translate}}  </p>
+            <ion-icon src="assets/icon/medal.svg" class="tip_icon" > </ion-icon>
+            <p  class="subtitle_p"  >  ONE &nbsp; {{'MEDALS' | translate}}  </p>
+
+            <div class="btn_div">
+                <ion-button  expand="block" color="success" fill="outline" style="width: 80%;margin: auto;" (click)="go_home()"> {{'Home' | translate}} </ion-button>
+            </div>
+    </div> 
+
+</ion-content>

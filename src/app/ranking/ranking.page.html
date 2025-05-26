@@ -1,0 +1,43 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-buttons slot="start" style="position: absolute;">
+            <ion-button (click)="back()">
+                <ion-icon slot="icon-only" mode="md" name="arrow-back-outline"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title style="text-align: center;">{{'AWARDS' | translate}} </ion-title>
+
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="main-content">
+
+    <ion-list lines="none" style="    padding: 0px;  width: 100%;">
+        <ion-list-header style="    background: aliceblue;">
+            <ion-label class="header_lbl">{{'Ranking' | translate}} </ion-label>
+        </ion-list-header>
+
+        <ion-item *ngFor="let useritem of ranking_list" style="  --min-height: 12px;display: flex;"> 
+            <p class="item_lbl"> {{useritem.nickname+": " }}         </p>
+            <p class="score_lbl"> {{useritem.score }} </p>
+            
+        </ion-item>     
+
+    </ion-list>
+
+    <p style="  background: aliceblue;  padding-left: 20px;  font-weight: 500;  font-size: large;  padding: 10px 20px;">{{'AWARDS' | translate}} </p>
+
+    <div class="award_div">
+        <div class="award_item">
+            <ion-icon *ngIf="argentina_logos==10" name="checkmark-circle-outline" color="success" class='award_icon'></ion-icon>
+            <ion-icon *ngIf="argentina_logos<10" name="remove-circle-outline" color="danger"  class='award_icon'></ion-icon>
+            <ion-label  class='award_lbl'> 10Logos Argentia</ion-label>
+        </div>
+        <div class="award_item">
+            <ion-icon *ngIf="difficult_logos==5" name="checkmark-circle-outline" color="success" class='award_icon'></ion-icon>
+            <ion-icon *ngIf="difficult_logos<5" name="remove-circle-outline" color="danger"  class='award_icon'></ion-icon>
+            <ion-label class='award_lbl'>  5Logos Difficulty10</ion-label>
+        </div>
+    </div>
+
+</ion-content>

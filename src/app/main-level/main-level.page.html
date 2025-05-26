@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-buttons slot="start" style="position: absolute;">
+            <ion-button (click)="back()">
+                <ion-icon slot="icon-only" mode="md" name="arrow-back-outline"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title style="text-align: center;">{{'Levels' | translate}}</ion-title>
+   
+    </ion-toolbar>
+</ion-header>
+<ion-content class="main-content">
+    <div class="level_div level1" (click)="go_sublevel(1)">
+        <div class="level_title">     {{'Level' | translate}} 1</div>
+        <p style="    opacity: 0.7;"> {{ main_levels[0].name }} </p>    
+        <p> {{ main_levels[0].complete_counts+ "/ " + main_levels[0].total_counts }} </p>    
+        <ion-progress-bar [value]="main_levels[0].complete_counts/main_levels[0].total_counts " class="progress_css"></ion-progress-bar>
+
+    </div>
+    <div class="level_div level2">
+        <div class="level_title"> 
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <ion-label > {{'Level' | translate}} 2</ion-label>
+        </div>
+        <div class="level_require"> {{'You must complete level 1' | translate}}</div>
+    </div>
+
+    <div class="level_div level3">
+        <div class="level_title"> 
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <ion-label> {{'Level' | translate}} 3</ion-label>
+        </div>
+        <div class="level_require"> {{'You must complete level 2' | translate}} </div>
+    </div>
+
+</ion-content>

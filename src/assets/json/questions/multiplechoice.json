@@ -1,0 +1,562 @@
+[
+    {
+        "id": 1,
+        "type": "SocialMedia",
+        "difficult": 1,
+        "logo_url": "assets/imgs/Multiplechoice/Snapchat.png",
+        "tip": "Yellow Logo",
+        "country":"USA",
+        "answers":[
+            {"title":"SNAPCHAT","correct":1},
+            {"title":"INSTAGRAM","correct":0},
+            {"title":"FACEBOOK","correct":0},
+            {"title":"TWITTER","correct":0}
+        ]        
+    },
+    {
+        "id": 2,
+        "type": "SocialMedia",
+        "difficult": 2,
+        "logo_url": "assets/imgs/Multiplechoice/Facebook.png",
+        "tip": "There is a movie",
+        "country":"Japan",
+        "answers":[
+            {"title":"SNAPCHAT","correct":0},
+            {"title":"INSTAGRAM","correct":0},
+            {"title":"FACEBOOK","correct":1},
+            {"title":"TWITTER","correct":0}
+        ]        
+    },
+    {
+        "id": 3,
+        "type": "SocialMedia",
+        "difficult": 3,
+        "logo_url": "assets/imgs/Multiplechoice/Instagram.png",
+        "tip": "Perfect life",
+        "country":"China",
+        "answers":[
+            {"title":"SNAPCHAT","correct":0},
+            {"title":"INSTAGRAM","correct":1},
+            {"title":"FACEBOOK","correct":0},
+            {"title":"TWITTER","correct":0}
+        ]        
+    },
+    {
+        "id": 4,
+        "type": "SocialMedia",
+        "difficult": 4,
+        "logo_url": "assets/imgs/Multiplechoice/Twitter.png",
+        "tip": "It is a bird",
+        "country":"France",
+        "answers":[
+            {"title":"SNAPCHAT","correct":0},
+            {"title":"INSTAGRAM","correct":0},
+            {"title":"FACEBOOK","correct":0},
+            {"title":"TWITTER","correct":1}
+        ]        
+    },
+    {
+        "id": 5,
+        "type": "Car",
+        "difficult": 5,
+        "logo_url": "assets/imgs/Multiplechoice/Ford.png",
+        "tip": "Best card",
+        "country":"Mexico",
+        "answers":[
+            {"title":"Ford","correct":1},
+            {"title":"Renault","correct":0},
+            {"title":"Audi","correct":0},
+            {"title":"BMW","correct":0}
+        ]        
+    },
+    {
+        "id": 6,
+        "type": "Car",
+        "difficult": 6,
+        "logo_url": "assets/imgs/Multiplechoice/Renault.png",
+        "tip": "From Europe",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Ford","correct":0},
+            {"title":"Renault","correct":1},
+            {"title":"Audi","correct":0},
+            {"title":"BMW","correct":0}
+        ]        
+    },
+    {
+        "id": 7,
+        "type": "Car",
+        "difficult": 7,
+        "logo_url": "assets/imgs/Multiplechoice/Audi.png",
+        "tip": "Top",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Ford","correct":0},
+            {"title":"Renault","correct":0},
+            {"title":"Audi","correct":1},
+            {"title":"BMW","correct":0}
+        ]        
+    },
+    {
+        "id": 8,
+        "type": "Car",
+        "difficult": 8,
+        "logo_url": "assets/imgs/Multiplechoice/BMW.png",
+        "tip": "James Bond",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Ford","correct":0},
+            {"title":"Renault","correct":0},
+            {"title":"Audi","correct":0},
+            {"title":"BMW","correct":1}
+        ]        
+    },
+    {
+        "id": 9,
+        "type": "Channel",
+        "difficult": 9,
+        "logo_url": "assets/imgs/Multiplechoice/MTV.png",
+        "tip": "To see videos",
+        "country":"Argentina",
+        "answers":[
+            {"title":"MTV","correct":1},
+            {"title":"TNT","correct":0},
+            {"title":"Fox","correct":0},
+            {"title":"AMC","correct":0}
+        ]        
+    },
+    {
+        "id": 10,
+        "type": "Channel",
+        "difficult": 10,
+        "logo_url": "assets/imgs/Multiplechoice/TNT.png",
+        "tip": "Best Movies",
+        "country":"Argentina",
+        "answers":[
+            {"title":"MTV","correct":0},
+            {"title":"TNT","correct":1},
+            {"title":"Fox","correct":0},
+            {"title":"AMC","correct":0}
+        ]        
+    },
+    {
+        "id": 11,
+        "type": "Channel",
+        "difficult": 1,
+        "logo_url": "assets/imgs/Multiplechoice/Fox.png",
+        "tip": "Simpsons",
+        "country":"USA",
+        "answers":[
+            {"title":"MTV","correct":0},
+            {"title":"TNT","correct":0},
+            {"title":"Fox","correct":1},
+            {"title":"AMC","correct":0}
+        ]        
+    },
+    {
+        "id": 12,
+        "type": "Channel",
+        "difficult": 2,
+        "logo_url": "assets/imgs/Multiplechoice/AMC.png",
+        "tip": "Funny",
+        "country":"Japan",
+        "answers":[
+            {"title":"MTV","correct":0},
+            {"title":"TNT","correct":0},
+            {"title":"Fox","correct":0},
+            {"title":"AMC","correct":1}
+        ]        
+    },
+    {
+        "id": 13,
+        "type": "Computer",
+        "difficult": 3,
+        "logo_url": "assets/imgs/Multiplechoice/Dell.png",
+        "tip": "Michael",
+        "country":"China",
+        "answers":[
+            {"title":"Dell","correct":1},
+            {"title":"Toshiba","correct":0},
+            {"title":"Asus","correct":0},
+            {"title":"Lenovo","correct":0}
+        ]        
+    },
+    {
+        "id": 14,
+        "type": "Computer",
+        "difficult": 4,
+        "logo_url": "assets/imgs/Multiplechoice/Toshiba.png",
+        "tip": "Could be better",
+        "country":"Franch",
+        "answers":[
+            {"title":"Dell","correct":0},
+            {"title":"Toshiba","correct":1},
+            {"title":"Asus","correct":0},
+            {"title":"Lenovo","correct":0}
+        ]        
+    },
+    {
+        "id": 15,
+        "type": "Computer",
+        "difficult": 5,
+        "logo_url": "assets/imgs/Multiplechoice/ASUS.png",
+        "tip": "Best Computers",
+        "country":"Mexico",
+        "answers":[
+            {"title":"Dell","correct":0},
+            {"title":"Toshiba","correct":0},
+            {"title":"Asus","correct":1},
+            {"title":"Lenovo","correct":0}
+        ]        
+    },
+    {
+        "id": 16,
+        "type": "Computer",
+        "difficult": 6,
+        "logo_url": "assets/imgs/Multiplechoice/Lenovo.png",
+        "tip": "Black computers",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Dell","correct":0},
+            {"title":"Toshiba","correct":0},
+            {"title":"Asus","correct":0},
+            {"title":"Lenovo","correct":1}
+        ]        
+    },
+    {
+        "id": 17,
+        "type": "Cellphone",
+        "difficult": 7,
+        "logo_url": "assets/imgs/Multiplechoice/HTC.png",
+        "tip": "3 letters",
+        "country":"Argentina",
+        "answers":[
+            {"title":"HTC","correct":1},
+            {"title":"Sumsung","correct":0},
+            {"title":"Apple","correct":0},
+            {"title":"Motorola","correct":0}
+        ]        
+    },
+    {
+        "id": 18,
+        "type": "Cellphone",
+        "difficult": 8,
+        "logo_url": "assets/imgs/Multiplechoice/Samsung.png",
+        "tip": "Top Selling",
+        "country":"Argentina",
+        "answers":[
+            {"title":"HTC","correct":0},
+            {"title":"Sumsung","correct":1},
+            {"title":"Apple","correct":0},
+            {"title":"Motorola","correct":0}
+        ]        
+    },
+    {
+        "id": 19,
+        "type": "Cellphone",
+        "difficult": 9,
+        "logo_url": "assets/imgs/Multiplechoice/Apple.png",
+        "tip": "Logos in Apple",
+        "country":"Argentina",
+        "answers":[
+            {"title":"HTC","correct":0},
+            {"title":"Sumsung","correct":0},
+            {"title":"Apple","correct":1},
+            {"title":"Motorola","correct":0}
+        ]        
+    },
+    {
+        "id": 20,
+        "type": "Cellphone",
+        "difficult": 10,
+        "logo_url": "assets/imgs/Multiplechoice/Motorola.png",
+        "tip": "A little old",
+        "country":"Argentina",
+        "answers":[
+            {"title":"HTC","correct":0},
+            {"title":"Sumsung","correct":0},
+            {"title":"Apple","correct":0},
+            {"title":"Motorola","correct":1}
+        ]        
+    },
+    {
+        "id": 21,
+        "type": "Drink",
+        "difficult": 1,
+        "logo_url": "assets/imgs/Multiplechoice/Pepsi.png",
+        "tip": "It is not Coke",
+        "country":"USA",
+        "answers":[
+            {"title":"Pepsi","correct":1},
+            {"title":"Fanta","correct":0},
+            {"title":"Sprite","correct":0},
+            {"title":"Schweppes","correct":0}
+        ]        
+    },
+    {
+        "id": 22,
+        "type": "Drink",
+        "difficult": 2,
+        "logo_url": "assets/imgs/Multiplechoice/Fanta.png",
+        "tip": "Orange",
+        "country":"Japan",
+        "answers":[
+            {"title":"Pepsi","correct":0},
+            {"title":"Fanta","correct":1},
+            {"title":"Sprite","correct":0},
+            {"title":"Schweppes","correct":0}
+        ]        
+    },
+    {
+        "id": 23,
+        "type": "Drink",
+        "difficult": 3,
+        "logo_url": "assets/imgs/Multiplechoice/Sprite.png",
+        "tip": "It is part of Coke",
+        "country":"China",
+        "answers":[
+            {"title":"Pepsi","correct":0},
+            {"title":"Fanta","correct":0},
+            {"title":"Sprite","correct":1},
+            {"title":"Schweppes","correct":0}
+        ]        
+    },
+    {
+        "id": 24,
+        "type": "Drink",
+        "difficult": 4,
+        "logo_url": "assets/imgs/Multiplechoice/Schweppes.png",
+        "tip": "Sounds Funny",
+        "country":"Franch",
+        "answers":[
+            {"title":"Pepsi","correct":0},
+            {"title":"Fanta","correct":0},
+            {"title":"Sprite","correct":0},
+            {"title":"Schweppes","correct":1}
+        ]        
+    },
+    {
+        "id": 25,
+        "type": "Cosmetic",
+        "difficult": 5,
+        "logo_url": "assets/imgs/Multiplechoice/Loreal.png",
+        "tip": "My girlfirend uses this",
+        "country":"Mexico",
+        "answers":[
+            {"title":"L'Oréal","correct":1},
+            {"title":"Mac","correct":0},
+            {"title":"Maybelline","correct":0},
+            {"title":"Revlon","correct":0}
+        ]        
+    } ,
+    {
+        "id": 26,
+        "type": "Cosmetic",
+        "difficult": 6,
+        "logo_url": "assets/imgs/Multiplechoice/Mac.png",
+        "tip": "Top cosmetics",
+        "country":"Argentina",
+        "answers":[
+            {"title":"L'Oréal","correct":0},
+            {"title":"Mac","correct":1},
+            {"title":"Maybelline","correct":0},
+            {"title":"Revlon","correct":0}
+        ]        
+    },
+    {
+        "id": 27,
+        "type": "Cosmetic",
+        "difficult": 7,
+        "logo_url": "assets/imgs/Multiplechoice/Maybelline.png",
+        "tip": "May...",
+        "country":"Argentina",
+        "answers":[
+            {"title":"L'Oréal","correct":0},
+            {"title":"Mac","correct":0},
+            {"title":"Maybelline","correct":1},
+            {"title":"Revlon","correct":0}
+        ]        
+    },
+    {
+        "id": 28,
+        "type": "Cosmetic",
+        "difficult": 8,
+        "logo_url": "assets/imgs/Multiplechoice/Revlon.png",
+        "tip": "You can uses that product.",
+        "country":"Argentina",
+        "answers":[
+            {"title":"L'Oréal","correct":0},
+            {"title":"Mac","correct":0},
+            {"title":"Maybelline","correct":0},
+            {"title":"Revlon","correct":1}
+        ]        
+    },
+    {
+        "id": 29,
+        "type": "Food",
+        "difficult": 9,
+        "logo_url": "assets/imgs/Multiplechoice/Kelloggs.png",
+        "tip": "Tiger",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Kellogg's","correct":1},
+            {"title":"Danone","correct":0},
+            {"title":"Knorr","correct":0},
+            {"title":"Nestle","correct":0}
+        ]        
+    },
+    {
+        "id": 30,
+        "type": "Food",
+        "difficult": 10,
+        "logo_url": "assets/imgs/Multiplechoice/Danone.png",
+        "tip": "Healthy",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Kellogg's","correct":0},
+            {"title":"Danone","correct":1},
+            {"title":"Knorr","correct":0},
+            {"title":"Nestle","correct":0}
+        ]        
+    },
+    {
+        "id": 31,
+        "type": "Food",
+        "difficult": 1,
+        "logo_url": "assets/imgs/Multiplechoice/Knorr.png",
+        "tip": "My mother uses this brand to cook",
+        "country":"USA",
+        "answers":[
+            {"title":"Kellogg's","correct":0},
+            {"title":"Danone","correct":0},
+            {"title":"Knorr","correct":1},
+            {"title":"Nestle","correct":0}
+        ]        
+    },
+    {
+        "id": 32,
+        "type": "Food",
+        "difficult": 2,
+        "logo_url": "assets/imgs/Multiplechoice/Nestle.png",
+        "tip": "Great cookies",
+        "country":"China",
+        "answers":[
+            {"title":"Kellogg's","correct":0},
+            {"title":"Danone","correct":0},
+            {"title":"Knorr","correct":0},
+            {"title":"Nestle","correct":1}
+        ]        
+    },
+    {
+        "id": 33,
+        "type": "Fragance",
+        "difficult": 3,
+        "logo_url": "assets/imgs/Multiplechoice/Kenzo.png",
+        "tip": "Mmmm you know it",
+        "country":"China",
+        "answers":[
+            {"title":"Kenzo","correct":1},
+            {"title":"Dior","correct":0},
+            {"title":"Chanel","correct":0},
+            {"title":"Versace","correct":0}
+        ]        
+    },
+    {
+        "id": 34,
+        "type": "Fragance",
+        "difficult": 4,
+        "logo_url": "assets/imgs/Multiplechoice/Dior.png",
+        "tip": "Do you know?",
+        "country":"Franch",
+        "answers":[
+            {"title":"Kenzo","correct":0},
+            {"title":"Dior","correct":1},
+            {"title":"Chanel","correct":0},
+            {"title":"Versace","correct":0}
+        ]        
+    },
+    {
+        "id": 35,
+        "type": "Fragance",
+        "difficult": 5,
+        "logo_url": "assets/imgs/Multiplechoice/Chanel.png",
+        "tip": "VIP",
+        "country":"Mexico",
+        "answers":[
+            {"title":"Kenzo","correct":0},
+            {"title":"Dior","correct":0},
+            {"title":"Chanel","correct":1},
+            {"title":"Versace","correct":0}
+        ]        
+    },
+    {
+        "id": 36,
+        "type": "Fragance",
+        "difficult": 6,
+        "logo_url": "assets/imgs/Multiplechoice/Versace.png",
+        "tip": "Miami",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Kenzo","correct":0},
+            {"title":"Dior","correct":0},
+            {"title":"Chanel","correct":0},
+            {"title":"Versace","correct":1}
+        ]        
+    },
+    {
+        "id": 37,
+        "type": "Clothes",
+        "difficult": 7,
+        "logo_url": "assets/imgs/Multiplechoice/Prada.png",
+        "tip": "Models",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Prada","correct":1},
+            {"title":"Armani","correct":0},
+            {"title":"Valentino","correct":0},
+            {"title":"Gucci","correct":0}
+        ]        
+    },
+    {
+        "id": 38,
+        "type": "Clothes",
+        "difficult": 8,
+        "logo_url": "assets/imgs/Multiplechoice/Armani.png",
+        "tip": "Nice suit",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Prada","correct":0},
+            {"title":"Armani","correct":1},
+            {"title":"Valentino","correct":0},
+            {"title":"Gucci","correct":0}
+        ]        
+    },
+    {
+        "id": 39,
+        "type": "Clothes",
+        "difficult": 9,
+        "logo_url": "assets/imgs/Multiplechoice/Valentino.png",
+        "tip": "Expensive",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Prada","correct":0},
+            {"title":"Armani","correct":0},
+            {"title":"Valentino","correct":1},
+            {"title":"Gucci","correct":0}
+        ]        
+    },
+    {
+        "id": 40,
+        "type": "Clothes",
+        "difficult": 10,
+        "logo_url": "assets/imgs/Multiplechoice/Gucci.png",
+        "tip": "To wear",
+        "country":"Argentina",
+        "answers":[
+            {"title":"Prada","correct":0},
+            {"title":"Armani","correct":0},
+            {"title":"Valentino","correct":0},
+            {"title":"Gucci","correct":1}
+        ]        
+    }
+]

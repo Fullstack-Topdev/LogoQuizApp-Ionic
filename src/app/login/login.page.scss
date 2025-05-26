@@ -1,0 +1,42 @@
+// Custom variables
+// Note:  These ones were added by us and have nothing to do with Ionic CSS Custom Properties
+:host {
+  --page-margin: var(--app-broad-margin);
+  --page-background: white;
+}
+
+// Note:  All the CSS variables defined below are overrides of Ionic elements CSS Custom Properties
+.login-content {
+  --background: var(--page-background);
+  --padding-start: var(--page-margin);
+  --padding-end: var(--page-margin);
+  --padding-top: var(--page-margin);
+  --padding-bottom: var(--page-margin);
+
+}
+
+.btn_div{
+  margin-top: 50%;
+}
+
+.btn_class{
+  margin: 7% 10px;
+  height: 42px;
+  --color: black!important;
+  --border-radius: 10px;
+}
+
+.btn1{
+  --ripple-color: #f4344f;
+  --border-color:#f4344f;
+}
+
+.btn2{
+  --ripple-color: #ffed11;
+  --border-color:#ffed11;
+}
+
+.btn3{
+  --ripple-color: #20dc6a;
+  --border-color:#20dc6a;
+}

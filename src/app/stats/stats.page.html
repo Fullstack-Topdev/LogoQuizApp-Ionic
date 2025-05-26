@@ -1,0 +1,73 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-buttons slot="start" style="position: absolute;">
+            <ion-button (click)="back()">
+                <ion-icon slot="icon-only" mode="md" name="arrow-back-outline"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title style="text-align: center;">{{'Statistics' | translate}} </ion-title>
+
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="main-content">
+
+    <ion-list lines="none" style="    padding: 0px;  width: 100%;">
+        <ion-list-header style="    background: aliceblue;">
+            <ion-label class="header_lbl">{{'Logos' | translate}} </ion-label>
+        </ion-list-header>
+
+        <ion-item>
+            <ion-label class="item_lbl"> {{'Perfect Logos' | translate}}: &nbsp;&nbsp;{{perfect_logos}} </ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-label class="item_lbl"> {{'Difficult Logos' | translate}}:&nbsp;&nbsp;{{ difficult_logos}} </ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-label class="item_lbl"> {{'Argentina Logos' | translate}} :&nbsp;&nbsp;{{ argentina_logos }}</ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-label class="item_lbl"> {{'Levels Completed' | translate}} :&nbsp;&nbsp;{{ completed_levels }} of 90</ion-label>
+        </ion-item>
+
+
+        <ion-list-header style="       background: aliceblue; margin-top: 20px;">
+            <ion-label class="header_lbl">{{'Suggestions' | translate}}  </ion-label>
+        </ion-list-header>
+
+        <ion-item>
+            <ion-icon src="assets/icon/user.svg" slot="start" class="item_icon"></ion-icon>
+            <ion-label class="item_lbl1"> {{'FirstWord' | translate}} :&nbsp;&nbsp;{{ user_info.hangmans}}</ion-label>
+        </ion-item>
+
+
+        <ion-item>
+            <ion-icon src="assets/icon/bomb.svg" slot="start" class="item_icon"></ion-icon>
+            <ion-label class="item_lbl1"> {{'Bomb' | translate}}:&nbsp;&nbsp;{{ user_info.bombs}}</ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon src="assets/icon/lamp.svg" slot="start" class="item_icon"></ion-icon>
+            <ion-label class="item_lbl1"> {{'Hint' | translate}}:&nbsp;&nbsp;{{ user_info.lights}} </ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon src="assets/icon/clock.svg" slot="start" class="item_icon"></ion-icon>
+            <ion-label class="item_lbl1"> {{'StopClock' | translate}} :&nbsp;&nbsp;{{ user_info.timers}}</ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon src="assets/icon/refresh.svg" slot="start" class="item_icon"></ion-icon>
+            <ion-label class="item_lbl1"> {{'Replace' | translate}} :&nbsp;&nbsp;{{ user_info.refreshs}} </ion-label>
+        </ion-item>
+
+        <ion-item>
+            <ion-icon src="assets/icon/medal.svg" slot="start" class="item_icon"></ion-icon>
+            <ion-label class="item_lbl1"> {{'Medals' | translate}} :&nbsp;&nbsp;{{ user_info.medals}} </ion-label>
+        </ion-item>
+
+    </ion-list>
+</ion-content>

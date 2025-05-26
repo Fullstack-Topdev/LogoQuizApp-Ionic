@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-toolbar color="light">
+        <ion-buttons slot="start" style="position: absolute;">
+            <ion-button (click)="back()">
+                <ion-icon slot="icon-only" mode="md" name="arrow-back-outline"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+        <ion-title style="text-align: center;">{{'Buy Tips' | translate}} - {{ price +"$" }}</ion-title>
+   
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="main-content">
+
+    <div class="tip_divs">
+        <ion-row>
+            <ion-col size=6  *ngFor="let tip_item of package_tips">
+                <div class="tip_item"> 
+                    <ion-icon [src]="tip_item.icon_url" class="tip_icon" ></ion-icon>
+                    <ion-label style=" margin-top: 10px;"> {{ tip_item.count * type}}</ion-label>
+                </div>
+            </ion-col>
+        </ion-row>
+    </div>
+
+    <ion-button expand="block" fill="outline" class="btn_class btn1" (click)="buy()"> {{'BUY' | translate}} </ion-button>
+
+
+</ion-content>
